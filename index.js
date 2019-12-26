@@ -3,7 +3,7 @@ const app = express()
 const mysql = require('mysql2')
 const fs = require('fs')
 console.log('aki')
-const port = process.env.PORT || 3000
+const port = process.env.PORT 
 const connection = mysql.createConnection({
   host: 'mysql669.umbler.com',
   user: 'sokanellas',
