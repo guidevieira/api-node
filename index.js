@@ -5,10 +5,10 @@ const fs = require('fs')
 
 const port = process.env.PORT || 3000
 const connection = mysql.createConnection({
-  host: 'us-cdbr-iron-east-02.cleardb.net',
-  user: 'b4a233a820586a',
-  database: 'heroku_7b047b086f614a8',
-  password: '94c84c05',
+  host: 'mysql669.umbler.com',
+  user: 'sokanellas',
+  database: 'teste01bgta',
+  password: 'Sokanellas2',
   multipleStatements: true
 })
 // mysql://b4a233a820586a:94c84c05@us-cdbr-iron-east-02.cleardb.net/heroku_7b047b086f614a8?reconnect=true
